@@ -16,15 +16,16 @@
 language: java
 
 env:
-  - USER_LANGUAGE=en USER_REGION=US'
-  - USER_LANGUAGE=fr USER_REGION=FR'
-  - USER_LANGUAGE=ja USER_REGION=JP'
+  - USER_LANGUAGE=en USER_REGION=US
+  - USER_LANGUAGE=fr USER_REGION=FR
+  - USER_LANGUAGE=ja USER_REGION=JP
 
 os:
   - linux
 
 jdk:
   - oraclejdk8
+  - oraclejdk9
 
 # Caches mvn repository in order to speed upbuilds
 cache:
